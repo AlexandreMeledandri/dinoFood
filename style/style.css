@@ -1,0 +1,27 @@
+nav ul li a{
+  text-transform: capitalize;
+  margin-left:20px;
+  margin-right:20px;
+  text-decoration: none;
+  color:#778899;
+}
+nav ul li a:hover{
+color: white;
+}
+nav ul{
+  display: flex;
+  margin-top:0px;
+  margin-bottom:0px;
+  padding:20px;
+}
+nav ul li{
+  list-style-type: none;
+
+}
+nav{
+  background-color: #00BFFF;
+}
+body{
+  background-color: black;
+  margin: 0px;
+}
