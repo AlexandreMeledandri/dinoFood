@@ -1,13 +1,14 @@
+html{
+
+}
 body{
-  background-color: black;
-  margin: 0px;
 }
 nav ul li a{
   text-transform: capitalize;
   margin-left:20px;
   margin-right:20px;
   text-decoration: none;
-  color:#778899;
+  color:#B3E5FC;
 }
 nav ul li a:hover{
 color: white;
@@ -19,12 +20,13 @@ nav ul{
   padding:20px;
 }
 nav ul li{
+  font: 2em lightgrey;
   list-style-type: none;
 
 }
 nav{
   height: 10vh;
-  background-color: #00BFFF;
+  background-color: #2196F3;
 }
 footer {
   height: 10vh;
