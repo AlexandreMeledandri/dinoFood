@@ -1,5 +1,5 @@
 html{
-
+ font-family: 'Roboto', sans-serif;
 }
 body{
 }
@@ -9,6 +9,7 @@ nav ul li a{
   margin-right:20px;
   text-decoration: none;
   color:#B3E5FC;
+  font-size: 2em;
 }
 nav ul li a:hover{
 color: white;
@@ -20,13 +21,13 @@ nav ul{
   padding:20px;
 }
 nav ul li{
-  font: 2em lightgrey;
   list-style-type: none;
 
 }
 nav{
   height: 10vh;
   background-color: #2196F3;
+  box-shadow: 0 2px 5px rgba(0,0,0,.26);
 }
 footer {
   height: 10vh;
@@ -42,7 +43,7 @@ footer {
   display: inline;
   font-size: 15px;
   padding-right: 15px
-  
+
 }
 
 .footerList{
