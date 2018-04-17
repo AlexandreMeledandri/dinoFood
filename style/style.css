@@ -5,6 +5,11 @@ body{
   background-color: #FFBF00;
   margin: 0px;
 }
+#logo{
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+}
 nav ul li a{
   text-transform: capitalize;
   margin-left:20px;
@@ -64,6 +69,7 @@ footer ul li a{
   color: #CE93D8;
   font-size: 15px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 footer ul li a:hover{
@@ -91,3 +97,12 @@ footer ul{
 width:48%;
 background-color: red;
 }
+.formulaire{
+
+}
+
+input[type=radio] {
+ background-color:transparent;
+ border:none;
+ width:10px;
+ }
