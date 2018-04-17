@@ -9,7 +9,7 @@ nav ul li a{
   margin-left:20px;
   margin-right:20px;
   text-decoration: none;
-  color:#B3E5FC;
+  color: #CE93D8;
   font-size: 2em;
 }
 nav ul li a:hover{
@@ -27,7 +27,7 @@ nav ul li{
 }
 nav{
   height: 10vh;
-  background-color: #2196F3;
+  background-color: #673AB7;
   box-shadow: 0 2px 5px rgba(0,0,0,.26);
 }
 .container{
@@ -39,6 +39,7 @@ nav{
 footer {
   height: 10vh;
   background: red;
+  background-color: #9C27B0;
 }
 
 footer ul li{
