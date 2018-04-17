@@ -27,7 +27,7 @@ nav ul li{
 }
 nav{
   height: 10vh;
-  background-color: #2196F3;
+  background-color: rgb(50, 123, 182);
   box-shadow: 0 2px 5px rgba(0,0,0,.26);
 }
 .container{
@@ -38,7 +38,7 @@ nav{
 
 footer {
   height: 10vh;
-  background: red;
+  background: #2196F3;
 }
 
 footer ul li{
@@ -52,9 +52,8 @@ footer ul li{
 footer ul li a{
   margin: 15px;
   color:#B3E5FC;
-  font-size: 20px;
+  font-size: 15px;
   text-decoration: none;
-  font-weight: bold;
 }
 
 footer ul li a:hover{
@@ -67,4 +66,5 @@ footer ul{
 
 .rightList{
   float: right;
+  padding-right:10px 
 }
