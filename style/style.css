@@ -1,12 +1,9 @@
-<<<<<<< HEAD
-=======
 html{
  font-family: 'Roboto', sans-serif;
 }
 body{
   margin: 0px;
 }
->>>>>>> c783223b154b4f92c85fc8b1ec1b77744bb21ab3
 nav ul li a{
   text-transform: capitalize;
   margin-left:20px;
