@@ -68,14 +68,16 @@ nav ul li:first-of-type{
   flex-direction: column;
 }
 .main-container{
-  width:80%;
+  width: 80%;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-radius: 5px;
   background-color: white;
+  margin: 0 auto;
 }
 article {
   width:80%;
   margin: 2% auto;
+  padding: 5% 5% 5% 2%;
 }
 footer {
   height: 10vh;
@@ -149,8 +151,9 @@ input[type=radio] {
 
  .map{
    display: flex;
-   margin: 10px auto;
+   margin: 3% auto;
    width:60%;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
  }
 
  .map p{
