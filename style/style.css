@@ -39,6 +39,10 @@ nav{
 article {
   width:80%;
   margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
 }
 footer {
   height: 10vh;
@@ -75,6 +79,10 @@ footer ul{
   max-height: 60vh;
 }
 
+#map iframe {
+  width: 100%;
+}
+
 .rightList{
   float: right;
   padding-right:10px
@@ -82,8 +90,4 @@ footer ul{
 .card{
 width:48%;
 background-color: red;
-}
-
-#map{
-  margin-left: 30%;
 }
