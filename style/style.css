@@ -87,3 +87,13 @@ background-color: red;
 #map{
   margin-left: 30%;
 }
+
+.formulaire{
+
+}
+
+input[type=radio] {
+ background-color:transparent;
+ border:none;
+ width:10px;
+ }
