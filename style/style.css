@@ -123,15 +123,52 @@ footer ul{
 width:48%;
 background-color: red;
 }
-.formulaire{
+<<<<<<< HEAD
 
+
+
+#map{
+  margin-left: 30%;
 }
+
+
+
+input, textarea {
+  background-color:#FFF3F3;
+  padding:3px;
+  border:1px solid #4B0082;
+  border-radius:5px;
+
+ }
+
+ input[type=submit], input[type=reset] {
+ width:100px;
+ margin-left:5px;
+ box-shadow:1px 1px 1px #4B0082;
+ cursor:pointer;
+ }
 
 input[type=radio] {
  background-color:transparent;
  border:none;
  width:10px;
  }
+<<<<<<< HEAD
+
+label{
+  display: inline-block;
+}
+div {
+  width: 400px;
+  margin:10px;
+}
+
+ .formulaire{
+    display: flex;
+    flex-direction: column;
+}
+
+=======
 .rightList{
   height: 60px;
   width: 60px;
@@ -141,3 +178,4 @@ footer {
     bottom: 0;
     width: 100%;
 }
+>>>>>>> b6be1f10007e4b1842cd271330f2cb0a36c44c27
