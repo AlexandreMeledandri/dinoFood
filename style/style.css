@@ -76,7 +76,6 @@ article {
 footer {
   height: 10vh;
   background-color: #673AB7;
-
   box-shadow: 0 2px 5px rgba(0,0,0,.26);
 }
 
@@ -99,6 +98,7 @@ footer ul li a:hover{
 
 footer ul{
   padding-top: 20px;
+  margin-top: 0px;
 }
 
 #map {
