@@ -2,6 +2,7 @@ html{
  font-family: 'Roboto', sans-serif;
 }
 body{
+  background-color: #FFBF00;
   margin: 0px;
 }
 nav ul li a{
@@ -41,8 +42,9 @@ article {
 }
 footer {
   height: 10vh;
-  background: red;
-  background-color: #9C27B0;
+  background-color: #673AB7;
+
+  box-shadow: 0 2px 5px rgba(0,0,0,.26);
 }
 
 footer ul li{
@@ -55,7 +57,7 @@ footer ul li{
 
 footer ul li a{
   margin: 15px;
-  color:#B3E5FC;
+  color: #CE93D8;
   font-size: 15px;
   text-decoration: none;
 }
@@ -80,4 +82,8 @@ footer ul{
 .card{
 width:48%;
 background-color: red;
+}
+
+#map{
+  margin-left: 30%;
 }
