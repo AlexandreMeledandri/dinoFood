@@ -35,3 +35,19 @@ footer {
   display:flex;
   flex-direction: column;
 }
+
+.footerList li{
+  display: inline;
+  font-size: 15px;
+  padding-right: 15px
+  
+}
+
+.footerList{
+  list-style-type: none;
+  padding-top: 40px;
+}
+
+.rightList{
+  float: right;
+}
