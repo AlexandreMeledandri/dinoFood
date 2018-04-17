@@ -123,15 +123,6 @@ footer ul{
 width:48%;
 background-color: red;
 }
-<<<<<<< HEAD
-
-
-
-#map{
-  margin-left: 30%;
-}
-
-
 
 input, textarea {
   background-color:#FFF3F3;
@@ -153,12 +144,11 @@ input[type=radio] {
  border:none;
  width:10px;
  }
-<<<<<<< HEAD
 
 label{
   display: inline-block;
 }
-div {
+.form-element {
   width: 400px;
   margin:10px;
 }
@@ -167,15 +157,3 @@ div {
     display: flex;
     flex-direction: column;
 }
-
-=======
-.rightList{
-  height: 60px;
-  width: 60px;
-}
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
->>>>>>> b6be1f10007e4b1842cd271330f2cb0a36c44c27
