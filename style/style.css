@@ -1,12 +1,9 @@
-<<<<<<< HEAD
-=======
 html{
  font-family: 'Roboto', sans-serif;
 }
 body{
   margin: 0px;
 }
->>>>>>> c783223b154b4f92c85fc8b1ec1b77744bb21ab3
 nav ul li a{
   text-transform: capitalize;
   margin-left:20px;
@@ -33,26 +30,39 @@ nav{
   background-color: #2196F3;
   box-shadow: 0 2px 5px rgba(0,0,0,.26);
 }
-footer {
-  height: 10vh;
-  background: red;
-}
 .container{
   width:100%;
   display:flex;
   flex-direction: column;
 }
 
-.footerList li{
-  display: inline;
-  font-size: 15px;
-  padding-right: 15px
-
+footer {
+  height: 10vh;
+  background: red;
 }
 
-.footerList{
+footer ul li{
   list-style-type: none;
-  padding-top: 40px;
+}
+
+footer ul li{
+  display: inline;
+}
+
+footer ul li a{
+  margin: 15px;
+  color:#B3E5FC;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer ul li a:hover{
+  color: white;
+  }
+
+footer ul{
+  padding-top: 20px;
 }
 
 .rightList{
