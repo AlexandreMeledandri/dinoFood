@@ -145,6 +145,15 @@ input[type=radio] {
  width:10px;
  }
 
+ .map{
+   display: flex;
+   margin: 10px auto;
+   width:60%;
+ }
+
+ .map p{
+   margin: auto;
+ }
 label{
   display: inline-block;
 }
