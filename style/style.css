@@ -97,14 +97,30 @@ width:48%;
 background-color: red;
 }
 
+
+
 #map{
   margin-left: 30%;
->>>>>>> 52e2da1f8b2c5c1e7fc1cf09f6d522882d77f63f
 }
 
 .formulaire{
-
+padding:5px;
 }
+
+input, textarea {
+  background-color:#FFF3F3;
+  padding:3px;
+  border:1px solid #4B0082;
+  border-radius:5px;
+
+ }
+
+ input[type=submit], input[type=reset] {
+ width:100px;
+ margin-left:5px;
+ box-shadow:1px 1px 1px #4B0082;
+ cursor:pointer;
+ }
 
 input[type=radio] {
  background-color:transparent;
