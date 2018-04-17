@@ -4,6 +4,11 @@ html{
 body{
   margin: 0px;
 }
+#logo{
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+}
 nav ul li a{
   text-transform: capitalize;
   margin-left:20px;
@@ -53,8 +58,9 @@ footer ul li{
 footer ul li a{
   margin: 15px;
   color:#B3E5FC;
-  font-size: 15px;
+  font-size: 20px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 footer ul li a:hover{
@@ -67,5 +73,4 @@ footer ul{
 
 .rightList{
   float: right;
-  padding-right:10px 
 }
