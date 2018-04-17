@@ -35,7 +35,10 @@ nav{
   display:flex;
   flex-direction: column;
 }
-
+article {
+  width:80%;
+  margin: 0 auto;
+}
 footer {
   height: 10vh;
   background: red;
@@ -72,5 +75,9 @@ footer ul{
 
 .rightList{
   float: right;
-  padding-right:10px 
+  padding-right:10px
+}
+.card{
+width:48%;
+background-color: red;
 }
