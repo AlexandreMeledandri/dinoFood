@@ -123,9 +123,21 @@ footer ul{
 width:48%;
 background-color: red;
 }
-.formulaire{
 
-}
+input, textarea {
+  background-color:#FFF3F3;
+  padding:3px;
+  border:1px solid #4B0082;
+  border-radius:5px;
+
+ }
+
+ input[type=submit], input[type=reset] {
+ width:100px;
+ margin-left:5px;
+ box-shadow:1px 1px 1px #4B0082;
+ cursor:pointer;
+ }
 
 input[type=radio] {
  background-color:transparent;
@@ -142,3 +154,15 @@ input[type=radio] {
  .map p{
    margin: auto;
  }
+label{
+  display: inline-block;
+}
+.form-element {
+  width: 400px;
+  margin:10px;
+}
+
+ .formulaire{
+    display: flex;
+    flex-direction: column;
+}
