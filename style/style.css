@@ -5,6 +5,11 @@ body{
   background-color: #FFBF00;
   margin: 0px;
 }
+#logo{
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+}
 nav ul li a{
   text-transform: capitalize;
   margin-left:20px;
@@ -57,9 +62,15 @@ footer ul li{
 
 footer ul li a{
   margin: 15px;
+<<<<<<< HEAD
+  color:#B3E5FC;
+  font-size: 20px;
+=======
   color: #CE93D8;
   font-size: 15px;
+>>>>>>> 52e2da1f8b2c5c1e7fc1cf09f6d522882d77f63f
   text-decoration: none;
+  font-weight: bold;
 }
 
 footer ul li a:hover{
@@ -77,6 +88,8 @@ footer ul{
 
 .rightList{
   float: right;
+<<<<<<< HEAD
+=======
   padding-right:10px
 }
 .card{
@@ -86,6 +99,7 @@ background-color: red;
 
 #map{
   margin-left: 30%;
+>>>>>>> 52e2da1f8b2c5c1e7fc1cf09f6d522882d77f63f
 }
 
 .formulaire{
