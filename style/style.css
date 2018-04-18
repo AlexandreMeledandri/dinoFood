@@ -2,8 +2,7 @@ html{
  font-family: 'Roboto', sans-serif;
 }
 body{
-  background: url(../img/background.jpg);
-  background-size: cover;
+  background-color: #FFD54F;
   margin: 0px;
 }
 .ulHeader{
@@ -105,13 +104,12 @@ nav ul li:first-of-type{
   width:100%;
   display:flex;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 .main-container{
   width: 80%;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-radius: 5px;
-  background-color: rgba(255,255,255,0.9);
+  background-color: white;
   margin: 0 auto;
 }
 article {
@@ -120,13 +118,11 @@ article {
   padding: 2% 5% 5% 2%;
 }
 footer {
-  position: fixed;
-  width: 100%;
-  bottom: 0;
   height: 10vh;
   background-color: #673AB7;
   box-shadow: 0 2px 5px rgba(0,0,0,.26);
-
+  bottom:0;
+  width: 100%;
 }
 
 footer ul li{
@@ -170,67 +166,10 @@ footer ul{
   float: right;
   padding-right:40px;
 }
-
 .card{
 width:48%;
 background-color: red;
 }
-
-.card_01{
-
-}
-.card_02{
-
-}
-.card_03{
-
-}
-.card_04{
-
-}
-.card_05{
-
-}
-.card_06{
-
-}
-.card_07{
-
-}
-.card_08{
-
-}
-.card_09{
-
-}
-.card_10{
-
-}
-.card_11{
-
-}
-.card_12{
-
-}
-.card_13{
-
-}
-.card_14{
-
-}
-.card_15{
-
-}
-.card_16{
-
-}
-.card_17{
-
-}
-.card_18{
-
-}
-
 
 input, textarea {
   background-color:#FFF3F3;
