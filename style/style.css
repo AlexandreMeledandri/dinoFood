@@ -2,7 +2,8 @@ html{
  font-family: 'Roboto', sans-serif;
 }
 body{
-  background-color: #FFD54F;
+  background: url(../img/background.jpg);
+  background-size: cover;
   margin: 0px;
 }
 .ulHeader{
@@ -55,50 +56,6 @@ body{
  color: white;
  font-size:  30px;
 }
-/*.navbar{
-    height: 12vh;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 0 10% 0 10%;
-    box-shadow: 0 2px 5px rgba(0,0,0,.26);
-    background-color: #B71C1C;
-    top:0;
-
-}
-nav{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-
-}
-nav ul li a{
-  text-transform: capitalize;
-  margin-left:20px;
-  margin-right:20px;
-  text-decoration: none;
-  color: #FFCCBC;
-  font-size: 2em;
-}
-nav ul li a:hover{
-color: white;
-}
-nav ul{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-nav ul li{
-  list-style-type: none;
-
-}
-nav ul li:first-of-type{
-  justify-self: left;
-}*/
 
 .card-container{
   width:100%;
@@ -215,39 +172,6 @@ label{
  .formulaire{
     display: flex;
     flex-direction: column;
-}
-
-.ulHeader{
-  list-style-type: none;
-  padding-left: 0px;
-  margin-top: 0px;
-  padding: 20px;
-}
-
-.ulHeader li{
-  margin: 3% 10%;
-  display: inline-block;
-}
-
-
-.navHeader {
-  background-color: #B71C1C; 
-  text-align: center;
-}
-
-.left{
-  width: 40%;
-}
-
-.center{
-  width: 20%;
-  background: #B71C1C;
-  border-radius: 0 0% 70% 70%;
-  padding: 0px 29px 13px;
-}
-
-.right{
-  width: 40%;
 }
 .scrolltop{
   right: 5px;
