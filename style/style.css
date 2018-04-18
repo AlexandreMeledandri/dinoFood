@@ -56,6 +56,9 @@ body{
  color: white;
  font-size:  30px;
 }
+.linkHeader:hover{
+  color: #BDBDBD;
+  }
 
 .card-container{
   width:100%;
@@ -76,7 +79,7 @@ article {
 }
 footer {
   height: 10vh;
-  background-color: #673AB7;
+  background-color: #B71C1C;
   box-shadow: 0 2px 5px rgba(0,0,0,.26);
   bottom:0;
   width: 100%;
@@ -89,14 +92,14 @@ footer ul li{
 
 footer ul li a,footer ul li span{
   margin: 15px;
-  color: #CE93D8;
+  color: white;
   font-size: 15px;
   text-decoration: none;
   font-weight: bold;
 }
 
 footer ul li a:hover{
-  color: white;
+  color: #BDBDBD;
   }
 
 footer ul{
@@ -129,17 +132,22 @@ background-color: red;
 }
 
 input, textarea {
-  background-color:#FFF3F3;
-  padding:3px;
-  border:1px solid #4B0082;
-  border-radius:5px;
-
+  background-color:transparent;
+  border:0;
  }
+ input{
+   border-bottom:1px solid grey;
+ }
+textarea{
+  border: 1px solid grey;
+}
 
  input[type=submit], input[type=reset] {
  width:100px;
  margin-left:5px;
- box-shadow:1px 1px 1px #4B0082;
+ box-shadow: 4px 4px 0px #BDBDBD;
+ background-color: #3F51B5;
+ color: white;
  cursor:pointer;
  }
 
@@ -148,7 +156,6 @@ input[type=radio] {
  border:none;
  width:10px;
  }
-
  .map{
    display: flex;
    margin: 3% auto;
@@ -180,4 +187,7 @@ label{
 }
 div.scrolltop a svg path {
   color: #FFC107;
+}
+ul li a svg path{
+  color:#FFC107;
 }
