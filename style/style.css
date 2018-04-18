@@ -83,6 +83,9 @@ footer {
   height: 10vh;
   background-color: #673AB7;
   box-shadow: 0 2px 5px rgba(0,0,0,.26);
+  bottom:0;
+  position: fixed;
+  width: 100%;
 }
 
 footer ul li{
@@ -121,7 +124,7 @@ footer ul{
 
 .rightList{
   float: right;
-  padding-right:10px
+  padding-right:40px;
 }
 .card{
 width:48%;
