@@ -30,8 +30,8 @@ body{
 .center{
  width: 20%;
  background: #B71C1C;
- border-radius: 0 0% 70% 70%;
- padding: 0px 29px 13px;
+ border-radius: 0 0% 90% 90%;
+ padding: 13px 0px 16px;
 }
 
 .right{
@@ -43,7 +43,7 @@ body{
 }
 
 .imgMenu{
- width: 75%;
+ width: 55%;
  display: block;
  margin: 10px auto;
  border-radius: 50%;
