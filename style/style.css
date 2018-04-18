@@ -6,14 +6,15 @@ body{
   margin: 0px;
 }
 .navbar{
-  height: 12vh;
-    position: relative;
+    height: 12vh;
     display: flex;
     align-items: center;
     width: 100%;
     padding: 0 10% 0 10%;
     box-shadow: 0 2px 5px rgba(0,0,0,.26);
     background-color: #673AB7;
+    top:0;
+
 }
 nav{
   display: flex;
@@ -77,14 +78,13 @@ nav ul li:first-of-type{
 article {
   width:80%;
   margin: 2% auto;
-  padding: 5% 5% 5% 2%;
+  padding: 2% 5% 5% 2%;
 }
 footer {
   height: 10vh;
   background-color: #673AB7;
   box-shadow: 0 2px 5px rgba(0,0,0,.26);
   bottom:0;
-  position: fixed;
   width: 100%;
 }
 
