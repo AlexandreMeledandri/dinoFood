@@ -5,7 +5,57 @@ body{
   background-color: #FFD54F;
   margin: 0px;
 }
-.navbar{
+.ulHeader{
+ list-style-type: none;
+ padding-left: 0px;
+ margin-top: 0px;
+ padding: 20px;
+}
+
+.ulHeader li{
+ margin: 3% 10%;
+ display: inline-block;
+}
+
+
+.navHeader {
+ background-color: #B71C1C;
+ text-align: center;
+}
+
+.left{
+ width: 40%;
+}
+
+.center{
+ width: 20%;
+ background: #B71C1C;
+ border-radius: 0 0% 70% 70%;
+ padding: 0px 29px 13px;
+}
+
+.right{
+ width: 40%;
+}
+
+.container-menu{
+ display: flex;
+}
+
+.imgMenu{
+ width: 75%;
+ display: block;
+ margin: 10px auto;
+ border-radius: 50%;
+}
+
+.linkHeader{
+ text-transform: capitalize;
+ text-decoration: none;
+ color: white;
+ font-size:  30px;
+}
+/*.navbar{
     height: 12vh;
     display: flex;
     align-items: center;
@@ -48,20 +98,7 @@ nav ul li{
 }
 nav ul li:first-of-type{
   justify-self: left;
-}
-
-#logo {
-  position: absolute;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-}
-
-#logo img {
-  width: 60px;
-  height: auto;
-  border-radius: 50%;
-}
+}*/
 
 .card-container{
   width:100%;
