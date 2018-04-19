@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
   <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
   <title>DINOFOOD FRANCE</title>
+
 </head>
 <body>
   <header>
@@ -34,7 +35,7 @@
   <div class="main-container">
   <article>
   <h2> Boite à idée ?! </h2>
-<p> Une Dino-question, une Dino-idée, une nouvelle recette de Dino-burger à nous proposer?! Alors prend ta pierre et ton silex et... Euh non! on est plus à l'époque la... Hum Hum Hum!!! Tu peut toujours nous envoyer tes messages dans notre boite à idées, alors n'hésite pas...rempli le formulaire suivant et envoi nous ton dino-Message!!</p>
+<p> Une Dino-question, une Dino-idée, une nouvelle recette de Dino-burger à nous proposer?! Alors prend ta pierre et ton silex et... Euh non! On est plus à l'époque la... Hum Hum Hum!!! Tu peut toujours nous envoyer tes messages dans notre boite à idées, alors n'hésite pas...Rempli le formulaire suivant et envoi nous ton dino-Message!!</p>
 <form class="formulaire">
 <div class="form-element">
   <label>Votre Nom :</label> <input type="text" name="nom" placeholder="Ex: Dupont" size="30" />
@@ -61,9 +62,12 @@
   <label for="message">Votre message :</label> <textarea name="message" placeholder="Votre message" id="message" cols="100" rows="8"></textarea>
 </div class="form-element">
 <div id="buttonform">
-  <div><input type="submit" name="envoyer"></div>
+  <div>
+  <input type="submit" name="envoyer" onclick="myFunction()"></div>
   <div><input type="reset" name="reset"></div>
 </div>
+
+
 
   </form>
 </article>
@@ -78,5 +82,12 @@
     <li class="social-icons"><a href="https://twitter.com/?lang=fr" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
   </ul>
 </footer>
+<script src="scripts/script.js"></script>
+  <script>
+function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.alert();
+}
+</script>
 </body>
 </html>
