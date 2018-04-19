@@ -304,7 +304,9 @@ ul li a svg path{
 @media only screen and (max-width: 500px) {
     .section-burgers div{
         width: 100%;
+    }
 }
+
 @media screen and (max-width: 1024px) {
   .center{
     padding: 5.5% 0px 3%;
@@ -327,7 +329,6 @@ ul li a svg path{
   position: relative;
 }
 
-/* ---------------------------- */
 .container {
   display: inline-block;
   cursor: pointer;
