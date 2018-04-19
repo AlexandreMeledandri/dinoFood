@@ -2,7 +2,7 @@ html{
  font-family: 'Roboto', sans-serif;
 }
 body{
-  background: url(../img/background.jpg);
+  background: url(../img/background.jpg)  no-repeat center center fixed;
   background-size: cover;
   margin: 0px;
 }
@@ -69,6 +69,10 @@ body{
   background-color: rgba(255,255,255,0.9);
   margin: 0 auto;
 }
+.map-container{
+  width: 100%;
+  padding-bottom: 18%;
+}
 article {
   width:80%;
   margin: 2% auto;
@@ -127,13 +131,10 @@ a.effect-underline {
 	transform: scale(1);
 }
 
-footer ul{
-  padding-top: 20px;
-  margin-top: 0px;
-}
 .footerhaut{
   position:fixed;
   bottom:0;
+  padding-bottom: 2px;
 }
 #map {
   display: flex;
