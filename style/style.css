@@ -25,18 +25,18 @@ body{
 }
 
 .left{
- width: 40%;
+ width: 41%;
 }
 
 .center{
- width: 20.089%;
+ width: 19%;
  background: #B71C1C;
  border-radius: 0 0% 90% 90%;
- padding: 2% 0px 3%;
+ padding: 3.5% 0px 3%;
 }
 
 .right{
- width: 40%;
+ width: 41%;
 }
 
 .container-menu{
@@ -197,6 +197,6 @@ ul li a svg path{
 
 @media screen and (max-width: 1024px) {
   .center{
-    padding: 4% 0px 3%;
+    padding: 5.5% 0px 3%;
   }
 }
