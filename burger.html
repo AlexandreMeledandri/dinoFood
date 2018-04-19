@@ -40,45 +40,30 @@
         </div>
     </header>
     <header class="head2">
-            <div class="container-menu">
-                <div class="left">
-                    <nav class="navHeader">
-                        <ul class="ulHeader">
-                            <li class="burgerleft">
-                                <div class="burgerMenu">
-                                    <div class="container" id="burger" onclick="burger()">
-                                        <div class="bar1"></div>
-                                        <div class="bar2"></div>
-                                        <div class="bar3"></div>
-                                    </div>
-                                    <div class="bbmenu"></div>
-                                </div>
-                            </li>
-                        </ul>
-                    </nav>
+            <div class="burgerMenu">
+                <div class="container" id="burger" onclick="burger()">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
                 </div>
-                <div class="center">
-                    <a href="index.html">
-                        <img class="imgMenu" src="./img/logo.jpeg" alt="">
-                    </a>
-                </div>
-                <div class="right">
-                    <nav class="navHeader"></nav>
+                <div id="BurgerMenu" class="bbmenu" style="display: none;height: 100%">
+                    <ul class="BurgerList">
+                            <li><a class="linkHeader effect-underline" href="index.html">accueil</a></li>
+                            <li><a class="linkHeader effect-underline" href="products.html">la carte</a></li>
+                            <li><a class="linkHeader effect-underline" href="Resto.html">nos restaurants</a></li>
+                    </ul>
                 </div>
             </div>
         </header>
-<div>
-    
-</div>
     <script>
-        var collapsed = true;
+        var collapsed = false;
         function burger() {
             console.log(collapsed);
             if (collapsed) {
-                document.getElementById("burger").style.display = "none";
+                document.getElementById("BurgerMenu").style.display = "none";
             } else {
 
-                document.getElementById("burger").style.display = "block";
+                document.getElementById("BurgerMenu").style.display = "block";
             }
             collapsed = !collapsed;
         }
