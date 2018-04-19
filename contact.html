@@ -36,7 +36,7 @@
   <article>
   <h2> Boite à idée ?! </h2>
 <p> Une Dino-question, une Dino-idée, une nouvelle recette de Dino-burger à nous proposer?! Alors prend ta pierre et ton silex et... Euh non! On est plus à l'époque la... Hum Hum Hum!!! Tu peut toujours nous envoyer tes messages dans notre boite à idées, alors n'hésite pas...Rempli le formulaire suivant et envoi nous ton dino-Message!!</p>
-<form class="formulaire">
+<form class="formulaire" target="_self" id="myForm">
 <div class="form-element">
   <label>Votre Nom :</label> <input type="text" name="nom" placeholder="Ex: Dupont" size="30" />
 </div>
@@ -48,8 +48,8 @@
 </div>
   <div class="form-element">
   <label>Votre sexe :</label>
-  <input type="checkbox" name="male" value="Masculin"><label for="Masculin"> Maculin</label>
-  <input type="checkbox" name="female" value="Feminin"><label for="Féminin"> Féminin</label>
+  <input type="checkbox" name="sexe" value="Masculin"><label for="Masculin"> Masculin</label>
+  <input type="checkbox" name="sexe" value="Feminin"><label for="Féminin"> Féminin</label>
   </div>
 <div class="form-element">
   <label>Votre adresse mail :</label> <input type="email" name="mail" placeholder="Ex: henriDupont@mail.fr" size="40">
@@ -63,7 +63,7 @@
 </div class="form-element">
 <div id="buttonform">
   <div>
-  <input type="submit" name="envoyer" onclick="myFunction()"></div>
+  <input type="submit" name="envoyer" id="myPopup" onclick="formFunction()"></div>
   <div><input type="reset" name="reset"></div>
 </div>
 
@@ -83,11 +83,5 @@
   </ul>
 </footer>
 <script src="scripts/script.js"></script>
-  <script>
-function myFunction() {
-    var popup = document.getElementById("myPopup");
-    popup.alert();
-}
-</script>
 </body>
 </html>
