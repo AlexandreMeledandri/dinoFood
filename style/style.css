@@ -194,3 +194,71 @@ div.scrolltop a svg path {
 ul li a svg path{
   color:#FFC107;
 }
+
+.section-burgers div{
+    display: flex;
+    width: 25%;
+}
+
+.section-burgers {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 2% 0;
+
+}
+
+.section-burgers a {
+    text-align: center;
+    margin:auto;
+  }
+
+.section-burgers img {
+    width: 70%;
+    position: relative; 
+    
+}
+  @keyframes zoom {
+  from {width: 70%;}
+  to {width: 80%;}
+}
+.section-burgers img:hover{
+  width:80%;
+  animation-name: zoom;
+  animation-duration: 0.3s;
+}
+.section-burgers p  {
+    color: #FFFFFF;
+    font-style: bolder;
+
+}
+
+
+.one{
+    background: #B71C1C;
+    display: flex;
+    height: 200px;
+}
+
+.two{
+    background: #FFA500;
+    display: flex;
+    height: 200px;
+}
+
+@media only screen and (max-width: 780px) {
+    .section-burgers div{
+        width: 33%;
+    }
+    .section-burgers div:nth-child(odd) {
+  background-color: #B71C1C;
+  }
+   .section-burgers div:nth-child(even) {
+   background-color: #FFA500;
+  }
+}
+@media only screen and (max-width: 500px) {
+    .section-burgers div{
+        width: 100%;
+    }
+}
