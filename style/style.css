@@ -167,11 +167,10 @@ textarea{
  input[type=submit], input[type=reset] {
  width:100px;
  margin-left:20px;
- box-shadow: 4px 4px 0px #BDBDBD;
- background-color: #3F51B5;
+ box-shadow: 1px 1px 0px #BDBDBD;
+ background-color: #B71C1C;
  color: white;
  cursor:pointer;
- border-radius: 15px;
  }
 #buttonform{
   display: flex;
