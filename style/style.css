@@ -22,6 +22,8 @@ body{
 .navHeader {
  background-color: #B71C1C;
  text-align: center;
+ min-height: 50%;
+ max-height: 50.1%;
 }
 
 .left{
@@ -170,16 +172,22 @@ textarea{
 }
 
  input[type=submit], input[type=reset] {
+ width:110px;
+ margin-left:25px;
+ background-color: rgb(207, 34, 34);
+ color: white;
+ cursor:pointer;
+ border-radius: 15px;
+ padding: 4%;
  width:100px;
  margin-left:20px;
  box-shadow: 1px 1px 0px #BDBDBD;
  background-color: #B71C1C;
- color: white;
- cursor:pointer;
  }
 #buttonform{
   display: flex;
 }
+
 input[type=radio] {
  background-color:transparent;
  border:none;
@@ -192,10 +200,12 @@ input[type=radio] {
    background-color: rgba(255,255,255,0.9);
    border-radius: 5px;
    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   padding: 5%
  }
 
  .map p{
    margin: auto;
+   margin-left: 14%;
  }
 label{
   display: inline-block;
@@ -220,10 +230,24 @@ div.scrolltop a svg path {
 ul li a svg path{
   color:#FFC107;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> d843f11cc75943404809dda7c257f0541f13ecb5
 .section-burgers div{
     display: flex;
     width: 25%;
+}
+
+.head1{
+  display: block;
+}
+.head2{
+  display: none;
+}
+
+.burgerleft{
+  float: left;
 }
 
 .section-burgers {
@@ -241,8 +265,8 @@ ul li a svg path{
 
 .section-burgers img {
     width: 70%;
-    position: relative; 
-    
+    position: relative;
+
 }
   @keyframes zoom {
   from {width: 70%;}
@@ -258,8 +282,6 @@ ul li a svg path{
     font-style: bolder;
 
 }
-
-
 .one{
     background: #B71C1C;
     display: flex;
@@ -291,6 +313,40 @@ ul li a svg path{
   .center{
     padding: 5.5% 0px 3%;
   }
+
+  .head1{
+    display: none;
+  }
+  .head2{
+    display: block;
+  }
+}
+
+.bbmenu{
+ width: 10px;
+ height: 10px;
+}
+
+.burgerMenu{
+  position: relative;
+}
+
+/* ---------------------------- */
+.container {
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  left: 0%;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color:white;
+  margin: 6px 0;
+  transition: 0.4s;
+  border-radius: 15px;
+}
   footer ul {
     justify-content: space-around;
     flex-wrap: wrap;
