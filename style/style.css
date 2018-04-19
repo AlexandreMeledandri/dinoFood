@@ -2,7 +2,7 @@ html{
  font-family: 'Roboto', sans-serif;
 }
 body{
-  background: url(../img/background.jpg);
+  background: url(../img/background.jpg)  no-repeat center center fixed;
   background-size: cover;
   margin: 0px;
 }
@@ -25,18 +25,18 @@ body{
 }
 
 .left{
- width: 40%;
+ width: 41%;
 }
 
 .center{
- width: 20%;
+ width: 19%;
  background: #B71C1C;
  border-radius: 0 0% 90% 90%;
- padding: 13px 0px 16px;
+ padding: 3.5% 0px 3%;
 }
 
 .right{
- width: 40%;
+ width: 41%;
 }
 
 .container-menu{
@@ -44,9 +44,9 @@ body{
 }
 
 .imgMenu{
- width: 55%;
+ width: 48%;
  display: block;
- margin: 10px auto;
+ margin: 5px auto;
  border-radius: 50%;
 }
 
@@ -54,11 +54,8 @@ body{
  text-transform: capitalize;
  text-decoration: none;
  color: white;
- font-size:  30px;
+ font-size:  29px;
 }
-.linkHeader:hover{
-  color: #BDBDBD;
-  }
 
 .card-container{
   width:100%;
@@ -71,6 +68,11 @@ body{
   border-radius: 5px;
   background-color: rgba(255,255,255,0.9);
   margin: 0 auto;
+  margin-bottom: 18%;
+}
+.map-container{
+  width: 100%;
+  padding-bottom: 18%;
 }
 article {
   width:80%;
@@ -78,11 +80,18 @@ article {
   padding: 2% 5% 5% 2%;
 }
 footer {
-  height: 10vh;
+  position: fixed;
+  height: 9vh;
   background-color: #B71C1C;
   box-shadow: 0 2px 5px rgba(0,0,0,.26);
   bottom:0;
   width: 100%;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 footer ul li{
@@ -91,25 +100,44 @@ footer ul li{
 }
 
 footer ul li a,footer ul li span{
-  margin: 15px;
   color: white;
-  font-size: 15px;
+  font-size: 0.8em;
   text-decoration: none;
   font-weight: bold;
 }
 
 footer ul li a:hover{
-  color: #BDBDBD;
+  color: #fff;
   }
 
-footer ul{
-  padding-top: 20px;
-  margin-top: 0px;
+a.effect-underline {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+  }
+  /*effect-underline*/
+.effect-underline:after {
+	content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
 }
-.footerhaut{
-  position:fixed;
-  bottom:0;
+
+.effect-underline:hover:after {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
 }
+
 #map {
   display: flex;
   justify-content: center;
@@ -122,13 +150,12 @@ footer ul{
   width: 60%;
 }
 
-.rightList{
+.social-icons{
   float: right;
-  padding-right:40px;
 }
-.card{
-width:48%;
-background-color: red;
+
+.social-icons svg {
+  font-size: 2em;
 }
 
 input, textarea {
@@ -145,11 +172,10 @@ textarea{
  input[type=submit], input[type=reset] {
  width:100px;
  margin-left:20px;
- box-shadow: 4px 4px 0px #BDBDBD;
- background-color: #3F51B5;
+ box-shadow: 1px 1px 0px #BDBDBD;
+ background-color: #B71C1C;
  color: white;
  cursor:pointer;
- border-radius: 15px;
  }
 #buttonform{
   display: flex;
@@ -184,7 +210,7 @@ label{
     flex-direction: column;
 }
 .scrolltop{
-  right: 5px;
+  right: 10px;
   bottom: 15%;
   position:fixed;
 }
@@ -195,6 +221,7 @@ ul li a svg path{
   color:#FFC107;
 }
 
+<<<<<<< HEAD
 .section-burgers div{
     display: flex;
     width: 25%;
@@ -260,5 +287,16 @@ ul li a svg path{
 @media only screen and (max-width: 500px) {
     .section-burgers div{
         width: 100%;
-    }
+}
+@media screen and (max-width: 1024px) {
+  .center{
+    padding: 5.5% 0px 3%;
+  }
+  footer ul {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  footer ul li a, footer ul li span{
+    font-size: 10px;
+  }
 }
