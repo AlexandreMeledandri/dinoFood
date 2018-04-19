@@ -72,6 +72,9 @@ body{
   margin: 0 auto;
   margin-bottom: 18%;
 }
+.main-container article header{
+  text-align: center;
+}
 .map-container{
   width: 100%;
   padding-bottom: 18%;
