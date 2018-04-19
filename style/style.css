@@ -144,13 +144,16 @@ textarea{
 
  input[type=submit], input[type=reset] {
  width:100px;
- margin-left:5px;
+ margin-left:20px;
  box-shadow: 4px 4px 0px #BDBDBD;
  background-color: #3F51B5;
  color: white;
  cursor:pointer;
+ border-radius: 15px;
  }
-
+#buttonform{
+  display: flex;
+}
 input[type=radio] {
  background-color:transparent;
  border:none;
