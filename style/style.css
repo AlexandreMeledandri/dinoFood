@@ -223,6 +223,7 @@ label{
   right: 10px;
   bottom: 15%;
   position:fixed;
+  margin-right: 2%;
 }
 div.scrolltop a svg path {
   color: #FFC107;
@@ -351,4 +352,3 @@ ul li a svg path{
   footer ul li a, footer ul li span{
     font-size: 10px;
   }
-
