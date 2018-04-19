@@ -56,9 +56,6 @@ body{
  color: white;
  font-size:  29px;
 }
-.linkHeader:hover{
-  color: #BDBDBD;
-  }
 
 .card-container{
   width:100%;
@@ -99,8 +96,36 @@ footer ul li a,footer ul li span{
 }
 
 footer ul li a:hover{
-  color: #BDBDBD;
+  color: #fff;
   }
+
+a.effect-underline {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+  }
+  /*effect-underline*/
+.effect-underline:after {
+	content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+.effect-underline:hover:after {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
 
 footer ul{
   padding-top: 20px;
@@ -180,7 +205,7 @@ label{
     flex-direction: column;
 }
 .scrolltop{
-  right: 5px;
+  right: 10px;
   bottom: 15%;
   position:fixed;
 }
