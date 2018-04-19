@@ -72,6 +72,9 @@ body{
   margin: 0 auto;
   margin-bottom: 18%;
 }
+.main-container article header{
+  text-align: center;
+}
 .map-container{
   width: 100%;
   padding-bottom: 18%;
@@ -223,6 +226,7 @@ label{
   right: 10px;
   bottom: 15%;
   position:fixed;
+  margin-right: 2%;
 }
 div.scrolltop a svg path {
   color: #FFC107;
@@ -250,7 +254,7 @@ ul li a svg path{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    margin: 2% 0;
+    margin: 3% 0;
 
 }
 
@@ -304,7 +308,9 @@ ul li a svg path{
 @media only screen and (max-width: 500px) {
     .section-burgers div{
         width: 100%;
+    }
 }
+
 @media screen and (max-width: 1024px) {
   .center{
     padding: 5.5% 0px 3%;
@@ -319,20 +325,23 @@ ul li a svg path{
 }
 
 .bbmenu{
- width: 10px;
- height: 10px;
+  background-color: rgba(0, 0, 0, 0.616);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 30px;
 }
 
 .burgerMenu{
-  position: relative;
+  position: fixed;
+  width: 100%;
+  height: 100%;
 }
 
-/* ---------------------------- */
 .container {
   display: inline-block;
   cursor: pointer;
   position: absolute;
-  left: 0%;
+  padding: 20px;
+  margin-left: 20px;
 }
 
 .bar1, .bar2, .bar3 {
@@ -350,6 +359,14 @@ ul li a svg path{
   footer ul li a, footer ul li span{
     font-size: 10px;
   }
+}
+.BurgerList li{
+  margin: 20% 10%;
+  text-align: center;
+}
+
+.BurgerList{
+  list-style-type: none;
 }
 .tada {
   -webkit-animation-name: tada;
@@ -402,4 +419,4 @@ ul li a svg path{
   -webkit-transform: scale3d(1, 1, 1);
   transform: scale3d(1, 1, 1);
   }
-  } 
+  }
