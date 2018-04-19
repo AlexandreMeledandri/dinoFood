@@ -72,6 +72,9 @@ body{
   margin: 0 auto;
   margin-bottom: 18%;
 }
+.main-container article header{
+  text-align: center;
+}
 .map-container{
   width: 100%;
   padding-bottom: 18%;
@@ -223,6 +226,7 @@ label{
   right: 10px;
   bottom: 15%;
   position:fixed;
+  margin-right: 2%;
 }
 div.scrolltop a svg path {
   color: #FFC107;
