@@ -254,7 +254,7 @@ ul li a svg path{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    margin: 2% 0;
+    margin: 3% 0;
 
 }
 
@@ -366,6 +366,5 @@ ul li a svg path{
   }
 
   .BurgerList{
-    list-style-type: none; 
+    list-style-type: none;
   }
-
