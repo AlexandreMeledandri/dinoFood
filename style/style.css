@@ -88,15 +88,20 @@ footer {
   width: 100%;
 }
 
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 footer ul li{
   list-style-type: none;
   display: inline;
 }
 
 footer ul li a,footer ul li span{
-  margin: 15px;
   color: white;
-  font-size: 15px;
+  font-size: 10%;
   text-decoration: none;
   font-weight: bold;
 }
@@ -145,9 +150,12 @@ a.effect-underline {
   width: 60%;
 }
 
-.rightList{
+.social-icons{
   float: right;
-  padding-right:40px;
+}
+
+.social-icons svg {
+  font-size: 2em;
 }
 
 input, textarea {
@@ -217,4 +225,8 @@ ul li a svg path{
   .center{
     padding: 5.5% 0px 3%;
   }
+  footer ul li a, footer ul li span{
+    font-size: 10px;
+  }
+
 }
