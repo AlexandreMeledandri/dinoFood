@@ -340,8 +340,8 @@ ul li a svg path{
   display: inline-block;
   cursor: pointer;
   position: absolute;
-  padding: 30px;
-  margin-left: 30px;
+  padding: 20px;
+  margin-left: 20px;
 }
 
 .bar1, .bar2, .bar3 {
