@@ -101,7 +101,7 @@ footer ul li{
 
 footer ul li a,footer ul li span{
   color: white;
-  font-size: 10%;
+  font-size: 0.8em;
   text-decoration: none;
   font-weight: bold;
 }
@@ -224,6 +224,10 @@ ul li a svg path{
 @media screen and (max-width: 1024px) {
   .center{
     padding: 5.5% 0px 3%;
+  }
+  footer ul {
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
   footer ul li a, footer ul li span{
     font-size: 10px;
