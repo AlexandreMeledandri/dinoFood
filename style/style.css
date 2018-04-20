@@ -334,6 +334,7 @@ ul li a svg path{
   position: fixed;
   width: 100%;
   height: 100%;
+  top: 0;
 }
 
 .container {
@@ -352,14 +353,16 @@ ul li a svg path{
   transition: 0.4s;
   border-radius: 15px;
 }
-  footer ul {
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-  footer ul li a, footer ul li span{
-    font-size: 10px;
-  }
+  
+footer ul {
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
+
+footer ul li a, footer ul li span{
+  font-size: 10px;
+}
+
 .BurgerList li{
   margin: 20% 10%;
   text-align: center;
